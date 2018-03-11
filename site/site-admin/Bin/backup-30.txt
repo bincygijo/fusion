@@ -1,0 +1,2 @@
+"client_id ","name","positon","school","street","substreet","state","country","postal","contact","email","client_date","information",
+"30","liju ","programmer","ckhs","cheppad","alapuzha","NT","india","690507","98476550241 ","liju@yahoo.com ","2009-04-09","ddddd"

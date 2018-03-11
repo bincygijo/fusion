@@ -1,0 +1,51 @@
+/* ######### Drop Down ULs CSS ######### */
+.ddsubmenustyle, .ddsubmenustyle ul{ /*topmost and sub ULs, respectively*/
+/*font: bold 11px Arial, Helvetica, sans-serif;*/
+margin: 0;
+padding: 0;
+position: absolute;
+left: 0;
+top: 0;
+list-style-type: none;
+font: bold 11px arial;
+border-bottom-width: 0;
+visibility: hidden;
+z-index: 100;
+background: #F2F2F2;
+/*opacity: 0.9;
+filter: alpha(opacity = 90);*/
+}
+.ddsubmenustyle{ 
+margin: 0px 0px 0px -20px;
+}
+.ddsubmenustyle img{
+border:none;
+}
+
+.ddsubmenustyle li{
+padding-left:15px;
+}
+
+.ddsubmenustyle a img{
+padding:10px 10px 0px 0px;
+}
+
+* html #main-nav #sddm li a{ /*IE6 CSS hack*/
+display: inline-block;
+}
+
+.ddsubmenustyle a, #sddm a{
+	font: normal 12px Tahoma, Arial, Helvetica, sans-serif;
+	text-decoration: none; color: #9A9A9A;
+	text-transform: capitalize;
+}
+
+.ddsubmenustyle a:hover, #sddm a:hover{
+	font: normal 12px Tahoma, Arial, Helvetica, sans-serif;
+	text-decoration: none; color: #94BA4A;
+	text-transform: capitalize;
+}
+iframe {
+	height:0px;
+	width:0px;
+}

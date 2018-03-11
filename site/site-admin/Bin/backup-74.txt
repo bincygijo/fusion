@@ -1,0 +1,2 @@
+"client_id ","name","positon","school","street","substreet","state","country","postal","contact","email","client_date","information",
+"74","test                    ","test","Australian Technical Chhhhhollege","ekm","Darwin","NT","","801","08 9010900       ","sda@dkf.dfd                ","0000-00-00","test",

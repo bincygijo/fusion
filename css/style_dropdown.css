@@ -1,0 +1,58 @@
+/* CSS Document */
+#sddm
+{	margin: 0;
+	padding: 0;
+	z-index: 30}
+
+#sddm li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial;
+}
+
+#sddm li a
+{	display: block;
+	margin: 0;
+	padding: 0px 5px 0 5px;
+	/*background: #5970B2;*/
+	color: #FFF;
+	text-align: center;
+	text-decoration: none}
+
+#sddm li a:hover
+{	/*background: #49A3FF*/}
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 2px 0 0 0;
+	padding: 0;
+	background: #F2F2F2;
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	width: auto;
+}
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 0;
+		width: 200px;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		color: #2875DE;
+		font: 11px arial;
+		}
+
+	#sddm div a:hover
+	{	/*background: #49A3FF;*/
+		color: #FFF }
+
+	#sddm div a img {
+		border:0;
+		margin-right: 10px;
+		display: inline;
+	}

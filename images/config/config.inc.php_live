@@ -1,0 +1,26 @@
+<?php ob_start();
+	session_start();
+
+	/*****************************************************************************************/
+ 	/* DATABASE SETTINGS 																						  */
+ 	/*****************************************************************************************/
+ 	$db_server="localhost";
+ 	$db_user="meander";
+ 	$db_pass="emman";
+ 	$db_name="meander";
+	$credit_card_charge = "2.2";
+	
+$url=$_SERVER['HTTP_HOST'];
+$url11=strchr($url,"www.");
+$urlpage=$_SERVER['PHP_SELF'];
+$urlarray=explode('/',$urlpage);
+$urlpagecount=count($urlarray);
+$urlpageno=$urlpagecount-1;
+$urlnewpage= $urlarray[$urlpageno];	
+	if(!$url11)
+		{
+		header("Location:http://www.meander.co.uk/".$urlnewpage."");
+		}
+		
+	
+?>

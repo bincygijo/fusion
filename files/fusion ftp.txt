@@ -1,0 +1,64 @@
+Here are the details:
+
+  www.fusionbooks.com.au
+
+  U: fusionmicro
+
+  P: hjj7k560fj
+
+   
+
+  è ** we may have a problem due to the fact that we only allow
+certain IP address?s to login to the server. If he can not connect
+then he needs to email us his STATIC IP Address; This static IP
+address will then be allowed access (MORE secure). Once this has been
+setup we should be  good to go.
+
+   
+
+   
+
+  Database Access:
+
+   
+
+  u: FusionMicro
+
+  db: FusionMicro
+
+  p: hjj7k560fj
+
+  host: localhost
+
+   
+  http://www.fusionbooks.com.au/phpmyadmin/
+
+
+changed pages 27.7.09
+
+admin/index.php
+
+
+
+
+
+
+
+Microsite staging:
+
+http://staging-microsite.fusionbooks.com.au/
+
+  DB:  FusionMicroStagi
+
+  USERNAME: FusionMicroStagi
+
+  PASSWORD: tMeAnC9yczs4zVQs
+
+  http://www.fusionbooks.com.au/phpmyadmin/
+
+
+
+
+
+virus scan
+http://support.kaspersky.com/virlab/helpdesk.html

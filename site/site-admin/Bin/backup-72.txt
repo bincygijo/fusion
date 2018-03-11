@@ -1,0 +1,2 @@
+"client_id ","name","positon","school","street","substreet","state","country","postal","contact","email","client_date","information",
+"72","","","Areyonga School","","Areyonga","NT","","871","(08) 8956 7303","tarna.andrews@ntschools.net","0000-00-00","",

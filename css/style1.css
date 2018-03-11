@@ -1,0 +1,397 @@
+/***** Global Settings *****/
+
+.png {behavior:url(iepngfix.htc);}
+
+html, body {
+	border:0;
+	margin:0;
+	padding:0;
+}
+ 
+body {
+	font-size:62.5%;
+	font-family:Verdana,Arial,sans-serif;
+	background:#fff url(../images/bg.gif) top center no-repeat;
+}
+
+
+/***** Common Formatting *****/
+ 
+h1, h2, h3, h4, h5, h6 {
+	margin:0;
+	padding:0;
+}
+ 
+h1 {
+	padding:0 0 15px 0;
+}
+ 
+h2 {
+	padding:0 0 15px 0;
+	font-size:20px;
+}
+ 
+h3 {
+	padding:0 0 15px 0;
+	font-size:1.7em;
+}
+
+p {
+	font-size:14px;
+	line-height:21px;
+	margin:0;
+	padding:0 0 15px 0;
+}
+
+ul {
+	font-size:13px;
+	line-height:1.7em;
+	margin:0;
+	list-style-type:disc;
+	padding:0 0 18px 15px;
+}
+
+ol {
+	font-size:13px;
+	line-height:1.7em;
+	margin:0;
+	padding:0 0 18px 15px;
+}
+ 
+blockquote {
+	margin:0;
+	padding:0;
+	background: transparent url('images/quote-left.gif') top left no-repeat;
+}
+blockquote p {
+	background: transparent url('images/quote-right.gif') bottom right no-repeat;
+	padding:5px 0;
+	margin-bottom:18px;
+}
+ 
+small {font-size:1em;}
+img {border:0;}
+
+sup {
+	position:relative;
+	bottom:0.3em;
+	vertical-align:baseline;
+}
+ 
+sub {
+	position:relative;
+	bottom:-0.2em;
+	vertical-align:baseline;
+}
+
+code {
+	font-size:12px;
+}
+ 
+acronym, abbr {
+	cursor:help;
+	letter-spacing:1px;
+	border-bottom:1px dashed;
+}
+ 
+/***** Links *****/
+ 
+a {color:#fff; text-decoration:none;}
+a:hover {text-decoration:underline; color:#fff}
+
+ 
+/***** Forms *****/
+ 
+form {
+	margin:0;
+	padding:0;
+	display:inline;
+}
+ 
+input, select {font-size:1em;}
+textarea {line-height:1.25;font-size:1.2em;}
+label {cursor:pointer;}
+
+ 
+/***** Tables *****/
+ 
+table {
+	border:0;
+	margin:0;
+	padding:0;
+	border-collapse:collapse;
+}
+ 
+td, th {
+	padding:2px;
+	text-align:left;
+	font-size:1.2em;
+}
+
+
+ 
+/***** Global Classes *****/
+ 
+.clear         { clear:both; }
+ 
+.float-left    { float:left; }
+.float-right   { float:right; }
+ 
+.text-left     { text-align:left; }
+.text-right    { text-align:right; }
+.text-center   { text-align:center; }
+.text-justify  { text-align:justify; }
+.text-hidden   { left:-9999px;position:absolute;}
+ 
+.bold          { font-weight:bold; }
+.italic        { font-style:italic; }
+.underline     { border-bottom:1px solid; }
+.highlight     { background:#ffc; }
+ 
+.wrap          { width:960px;margin:0 auto; }
+ 
+.img-left      { float:left;margin:0 20px 20px 0; }
+.img-right     { float:right;margin:0 0 20px 20px; }
+ 
+.nopadding     { padding:0; }
+.noindent      { margin-left:0;padding-left:0; }
+.nobullet      { list-style:none;list-style-image:none; }
+
+.hr {border-bottom:1px dotted #666;margin-bottom:10px;}
+.confirm {color:green;}
+.warning {color:red;}
+.grey {color:#545456;}
+
+.larger {font-size:16px; line-height:25px;}
+.smaller {font-size:12px; line-height:16px;}
+
+
+
+/***** Wrapper *****/
+
+#wrapper {
+	width:994px;
+	margin: 0 auto;
+	padding:10px 15px;
+}
+
+
+/***** Header *****/
+
+#header {
+	height:200px;
+}
+#header-nav {
+	width:830px;
+	position:absolute;
+	margin: 150px 0 0 205px;
+}
+#header-nav img {
+	margin-right:35px;
+	float:left;
+}
+#header-nav img.last {
+	margin-right:0;
+}
+
+#header-banner {
+	float:right;
+	width:790px;
+	padding:20px 0 30px 0;
+}
+
+#logo {
+	float:left;
+}
+#logo-bar, #logo-bar2 {
+	height:200px;
+	width:1px;
+	background:#fff;
+	position:absolute;
+	z-index:5;
+	margin-left:-50px;
+}
+
+
+/***** Content *****/
+
+.main {
+	position:absolute;
+	width:605px;
+	background:#000;
+	color:#fff;
+	font-size:12px;
+}
+
+.main .container {
+	height:370px;
+}
+
+.main h1, .side h2 {
+	display:block;
+	color:#000;
+	text-transform:uppercase;
+	font-size:15px;
+	padding:5px 15px;
+	font-weight:normal;
+	font-family: "arial narrow";
+}
+
+
+#main-home h1, #side-home h2 {background-color:#8cc63f;}
+#main-listings h1, #side-listings h2 {background-color:#00aeef;}
+#main-tickets h1, #side-tickets h2 {background-color:#ec008c;}
+#main-gallery h1, #side-gallery h2 {background-color:#f47b23;}
+#main-membership h1, #side-membership h2 {background-color:#91268c;}
+#main-our-friends h1, #side-our-friends h2 {background-color:#c1191c;}
+
+
+.container {
+	padding:10px 15px;
+	color:#fff;
+}
+
+.main .scroll {
+	height:370px;
+	overflow:auto;
+	padding-right:15px;
+}
+
+.mp3-player {
+	width:370px;
+	float:right;
+	background:#000;
+	height:50px;
+	margin-bottom:15px;
+}
+.side {
+	width:240px;
+	position:absolute;
+	background:#000;
+	margin:65px 0 0 625px;
+	height:150px;
+}
+
+.gallery-container {
+	overflow:hidden;
+}
+.gallery-container .thumbs {
+	width:575px;
+}
+.gallery-container .thumbs img {
+	padding:0 10px 2px 12px;
+	width: 166px;
+	height: 110px;
+}
+.gallery-container .thumbs img.gallery-last {
+	margin-right: 0;
+}
+
+.gallery-nav {
+	font-size:15px;
+	text-transform:uppercase;
+	font-family:"arial narrow";
+	clear:both;
+	width:200px;
+	position:absolute;
+	margin:350px 0 0 220px;
+}
+.gallery-nav a {
+	text-decoration:none;
+	margin:0 20px 0 0;
+}
+.gallery-nav a:hover {
+	text-decoration:none;
+}
+.gallery-nav img {
+	position:absolute;
+}
+.gallery-nav img#left-arrow {
+	margin-left:-20px;
+}
+.gallery-container .thumbs #slides {
+	width:575px;
+}
+
+
+/***** Footer *****/
+
+#footer {
+	clear:both;
+	font-size:11px;
+	width:605px;
+	text-align:right;
+	padding:360px 0 0 0;
+}
+#footer a {
+	color:#000;
+}
+
+
+
+
+
+/***** Gallery *****/
+
+.jcarousel-container {
+	position: relative;
+}
+.jcarousel-clip {
+    z-index: 2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.jcarousel-list li,
+.jcarousel-item {
+    float: left;
+    list-style: none;
+    /* We set the width/height explicitly. No width/height causes infinite loops. */
+    width: 75px;
+    height: 75px;
+}
+
+.jcarousel-skin .jcarousel-container-horizontal {
+    width: 575px;
+    height: 350px;
+    text-align:center;
+}
+.jcarousel-skin .jcarousel-clip-horizontal {
+    width: 575px;
+    height: 350px;
+}
+.jcarousel-skin .jcarousel-item {
+    width: 575px;
+    height: 350px;
+}
+.jcarousel-skin .jcarousel-item-horizontal {
+    margin-right: 10px;
+}
+.jcarousel-skin .jcarousel-item-placeholder {
+    background: #fff;
+    color: #000;
+}
+.mandatory{
+color:#FF0000;
+}
+#reglogin{
+font-size:12px;
+}
+.logout{
+	font-size:11px;
+}
+
+.logout a {
+	color:#000;
+	text-decoration:underline;
+}

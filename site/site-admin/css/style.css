@@ -1,0 +1,252 @@
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../images/mainbg1.jpg) repeat-x left top;
+}
+a {
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: underline; color: #0000FF;
+}
+a:hover {
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: underline; color: #FF0000;
+}
+
+.toplink {
+	font: bold 12px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.toplink:hover {
+	font: bold 12px Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #ffee9f;
+}
+.textfield {
+	width: 288px;
+	height: 19px;
+	border: 1px solid #327fa7;
+	font: normal 13px Arial, Helvetica, sans-serif;
+	text-decoration: none; color:#000000;
+}
+.lefttxt {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	text-decoration: none; color: #036ca8;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+.lefttxt a {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	text-decoration: none; color: #036ca8;
+	margin-left: 15px; height: 24px; display:block;
+	margin-top: 8px; text-indent:1px;
+	
+}
+.lefttxt a:hover {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	text-decoration: none; color: #FFFFFF;
+}
+.lefttxt a:active {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	text-decoration: none; color: #003333;
+}
+.active {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	text-decoration: none; color: #FFFFFF;
+	margin-left: 15px; display: inline;
+}
+.head {
+	font: bold 14px Arial, Helvetica, sans-serif;
+	text-decoration: none; color: #FFFFFF;
+	padding-left: 15px;
+}
+.subhead {
+	font: bold 13px Arial, Helvetica, sans-serif;
+	text-decoration: none; color: #000000;
+	height: 25px;
+}
+.border {
+	border-left: 1px solid #0d76aa;
+	border-right: 1px solid #0d76aa;
+}
+.welcome {
+	font: bold 16px Arial, Helvetica, sans-serif;
+	text-decoration: none; color: #666666;
+}
+.rowcolor1 {
+	background-color: #a6e0ff;
+}
+.rowcolor2 {
+	background-color: #FFFFFF;
+}
+.tbhead {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	text-decoration: none; color: #025581;
+	text-align: center;
+}
+.tbtext {
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: none; color: #585858;
+}
+
+.tbtext1 {
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: none; color: #CCCCCC;
+}
+.edit {
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: underline; color: #0000cc;
+}
+.select {
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: underline; color: #0000cc;
+}
+.grouphead {
+	font: bold 12px Arial, Helvetica, sans-serif;
+	text-decoration: none; color: #0066FF;
+}
+.field {
+	width: 150px;
+	height: 17px;
+	border: 1px solid #327fa7;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: none; color:#000000;
+}
+.field2 {
+	width: 200px;
+	height: 17px;
+	border: 1px solid #327fa7;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: none; color:#000000;
+}
+.listmenu {
+	width: 152px;
+	border: 1px solid #327fa7;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: none; color:#000000;
+}
+
+.listmenu3 {
+	width: 135px;
+	border: 1px solid #327fa7;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: none; color:#000000;
+}
+.listmenu2 {
+	width: 202px;
+	border: 1px solid #327fa7;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: none; color:#000000;
+}
+.textarea {
+	width: 200px;
+	height: 100px;
+	border: 1px solid #327fa7;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: none; color:#000000;
+}
+.paid {
+	font: normal 14px Arial, Helvetica, sans-serif;
+	text-decoration: underline; color: #009900;
+}
+.create {
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: underline; color: #0000FF;
+}
+.create a, a:hover {
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: underline; color: #0000FF;
+}
+.tbtext2 {
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: none; color: #585858;
+	border-bottom: 1px solid #017ab6;
+}
+.field3 {
+	width: 330px;
+	height: 17px;
+	border: 1px solid #327fa7;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: none; color:#000000;
+}
+.textarea1 {
+	width: 330px;
+	height: 100px;
+	border: 1px solid #327fa7;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: none; color:#000000;
+}
+
+
+.textarea2 {
+	width: 250px;
+	height: 150px;
+	border: 1px solid #327fa7;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: none; color:#000000;
+}
+
+
+
+
+
+/*-------------- New CSS --------------*/
+
+
+.title {
+	font: bold 16px Arial, Helvetica, sans-serif;
+	text-decoration: none; color: #000000;
+	height: 25px;
+}
+.boxline {
+	border: 1px solid #0d76aa;
+	border-top: none;
+}
+.shortfield {
+	width: 250px;
+	height: 17px;
+	border: 1px solid #327fa7;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: none; color:#000000;
+}
+.shortarea {
+	width: 250px;
+	height: 60px;
+	border: 1px solid #327fa7;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: none; color:#000000;
+}
+.shortarea1 {
+	width: 250px;
+	height: 30px;
+	border: 1px solid #327fa7;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: none; color:#000000;
+}
+.shortmenu {
+	width: 120px;
+	border: 1px solid #327fa7;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: none; color:#000000;
+}
+
+/*---------- calender ----------*/
+
+.calender {
+	background-color: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.calender table tr td {
+	width: 114px;
+	height: 40px;
+}
+
+.calfon{
+font-family : Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+}

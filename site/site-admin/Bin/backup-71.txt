@@ -1,0 +1,2 @@
+"client_id ","name","positon","school","street","substreet","state","country","postal","contact","email","client_date","information",
+"71","","","Araluen Christian School","10 Blain St","Alice Springs","NT","","871","(08) 89550121","admin@acf.nt.edu.au","0000-00-00","",

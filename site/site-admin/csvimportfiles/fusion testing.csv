@@ -1,0 +1,14 @@
+Fusion checking on 20.8.09
+
+1. keyword searching in microsite path corrected.
+2. In view quote, adding description filed for listing.
+3.adding  link for register contactd page ,when adding a new client
+
+21.8.09
+
+1. adding validation for add new client form
+2. In contact with current client form  path name changed and validation added
+3.style missing in edit photo (school name)
+4.In download as csv permission added on the server
+5. when listing register_quote ,limit the comments content 
+

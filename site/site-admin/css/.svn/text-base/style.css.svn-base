@@ -1,0 +1,161 @@
+body,p
+{
+margin:0 0 0 0;
+padding:0 0 0 0;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+}
+a
+{
+text-decoration:none;
+color:#0033CC;
+}
+a:hover
+{
+text-decoration:none;
+color:#CC0000;
+}
+#ad_td
+{
+border-top:1px solid #EAEAEA;
+border-right:1px solid #EAEAEA;
+}
+textarea
+{
+border:1px solid #C1BFBF;
+width:250px;
+}
+#txtboxes
+{
+border:1px solid #C1BFBF;
+width:250px;
+}
+.button
+{
+border:0px none #FFFFFF;
+}
+.headings
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+}
+#menu_td
+{
+height:23px;
+border-bottom:1px solid #EAEAEA;
+text-indent:15px;
+font-size:10px;
+}
+#main_menu_td
+{
+height:20px;
+font-weight:bold;
+background-color:#EAEAEA;
+text-indent:5px;
+font-size:11px;
+}
+.menu100
+{
+width:100%;
+height:20px;
+cursor:hand;
+padding-top:4px;
+}
+#page_headings
+{
+height:auto;
+font-weight:bold;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+text-indent:5px;
+font-size:12px;
+color:#1570D6;
+padding:3px 0px 6px 0px;
+border-bottom:1px solid #EAEAEA;
+vertical-align:middle;
+}
+#info_messages
+{
+font-weight:bold;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+text-indent:5px;
+font-size:11px;
+color:#FF6699;
+padding:6px 0px 9px 0px;
+vertical-align:middle;
+}
+.sort_link_head
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	font-weight:bold;
+	color: #15998B;
+	text-decoration: none;
+}
+.sort_link
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	font-weight:bold;
+	color: #375A00;
+	text-decoration: none;
+}
+.bodytag
+{
+	color: #393733;
+	margin: 0;
+	text-align: center;
+	background: #fff;
+}
+.pages 
+{
+    padding: 0em;
+    margin: 0 0;
+    padding: 0px 0px 0px 0px;
+    clear: left;
+    font-size: 83%;
+}
+.pages a, .pages span 
+{
+    display: block;
+    float: left;
+    padding: 0.2em 0.5em;
+    margin-right: 0.1em;
+    border: 1px solid #fff;
+    background: #fff;
+}
+
+.pages span.current 
+{
+    border: 1px solid #2E6AB1;
+    font-weight: bold;
+    background: #0557a8;
+    color: #fff;
+}
+.pages a 
+{
+    border: 1px solid #9AAFE5;
+    color: #105CB6;
+    text-decoration: none;
+}
+
+.pages a:hover 
+{
+    border-color: #2E6AB1;
+    color: #105CB6;
+}
+.pages a.nextprev 
+{
+    font-weight: bold;
+    color: #105CB6;
+}
+.pages span.nextprev 
+{
+    border: 1px solid #ddd;
+    color: #999;
+}
+.stati
+{
+border-bottom:1px solid #E9EAEA;
+height:25px;
+vertical-align:middle;
+}

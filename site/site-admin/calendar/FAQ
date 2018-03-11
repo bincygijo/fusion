@@ -1,0 +1,52 @@
+Q: How do I fit the calendar into the theme of my website?
+A: Currently this is an arduous task. You need to edit includes/calendar.php
+   You want to edit the function create_xhtml(). Make it something like:
+
+function create_xhtml($rest)
+{
+        global $config, $phpc_script;
+
+        // if your header has a doctype, skip this line. Hopefully you're
+	// using xhtml, if not, you can edit includes/html.php to produce html
+        $output = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0//EN\"\n"
+                ."\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n";
+	// if your header is static
+        $output .= file_get_contents("/your/site/location/header.html");
+	// if it's dynamic, it's trickier, you could skip the above line
+	// and simply include it here, or you could use outputbuffers and try
+	// it that way
+
+	// Make sure that your header can include the styelsheet for
+	// php-calendar, or copy the style from our stylesheet into yours
+        // the tag is: <link rel="stylesheet" type="text/css"
+	//   href="$phpc_script?action=style">
+
+	// you might not need the following, or you might need it earlier
+	$output .= "<body><h1>${config['calendar_title']}</h1>";
+	
+	// the following should be in, but you can skip the linkbar
+	$navbar = navbar();
+	$linkbar = link_bar();
+        $output .= $navbar->toString()
+                .$rest->toString()
+                .$linkbar->toString();
+
+	// this might be necessary
+	$output .= "</body></html>";
+
+        return $output;
+}
+
+   I don't make any guarantees on that bit of code, but hopefully it will help
+   you get started in the right direction.
+
+Q: How do I allow HTML in the descriptions of events?
+A: Read and follow comments in the function parse_desc() in
+   includes/calendar.php
+
+Q: How do I get the links for translations to appear?
+A: You need to build the .mo files for the languages you want. To do this, go
+   into the directory for each language you want (ex. locale/de/LC_MESSAGES)
+   and run: msgfmt messages.po
+   I have no experience with this in Windows. Read the manual for gettext for
+   more information.
